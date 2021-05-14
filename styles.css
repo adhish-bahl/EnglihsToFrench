@@ -9,6 +9,8 @@
     margin: 2rem;
     background-color: #fbe450;
     color: black;
+    border-radius: 2rem;
+    text-align: center;
 }
 
 body {
@@ -35,10 +37,6 @@ h1 {
     padding: 0rem 25rem;
 }
 
-.navigator {
-    /* text-align: center; */
-}
-
 body p {
     width: auto;
     text-align: center;
@@ -49,6 +47,7 @@ body p {
     width: 10rem;
     font-weight: bolder;
     font-size: 1.3rem;
+    border-radius: 2rem;
     /* margin: 2rem; */
 }
 
@@ -59,4 +58,12 @@ body p {
     margin-bottom: 1rem;
     /* width: 1rem; */
     /* display: inline-block; */
+}
+
+.navigator {
+    border-radius: 0rem 0rem 1rem 1rem ;
+}
+
+.footer {
+    border-radius: 1rem 1rem 0rem 0rem ;
 }
